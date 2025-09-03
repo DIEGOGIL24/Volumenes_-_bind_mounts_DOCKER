@@ -128,4 +128,4 @@ docker run --rm -v appdata_restored:/data alpine:3.20 cat /data/info.txt
 ## Reflexión
 En los ejercicios aprendí a crear y usar volúmenes en Docker, hacer respaldos y restaurarlos.  
 Los principales problemas que tuve fueron errores de sintaxis (`-rm` en vez de `--rm`, `-name` en vez de `--name`, uso de `&` en lugar de `&&`) y archivos inexistentes al usar `tail`.  
-Los resolví corrigiendo la sintaxis, creando los archivos o volúmenes antes de usarlos y verificando cada paso con comandos de Docker.
+Los resolví corrigiendo la sintaxis, creando los archivos o volúmenes antes de usarlos y verificando cada paso con los diferentes comandos de Docker.
